@@ -1,0 +1,51 @@
+.vision{
+    margin-top: 40px;
+}
+.vision__content{
+    width: 85%;
+    margin: auto;
+}
+
+.vision__text h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+.vision__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.card-body .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-body .head h1{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    color: rgb(24, 194, 24);
+}
+.card-body p{
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+    color: gray;
+}
+
+@media screen and (max-width:550px) {
+    .vision__flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .vision__vision,.vision__mission{
+        margin-bottom: 30px;
+    }
+    .vision__text h2{
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(24, 194, 24);
+    }
+}

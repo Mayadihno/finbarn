@@ -1,0 +1,135 @@
+.expoil{
+    margin-top: 30px;
+    
+}
+.expoil__background{
+    background-image: url('../../../Assets/WhatsApp\ Image\ 2023-01-25\ at\ 19.35.50.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.expoil__content{
+    width: 85%;
+    margin: auto;
+}
+.expoil__text{
+    text-align: center;
+    position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    
+}
+.expoil__text h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 50px;
+   
+}
+.expoil__text p{
+    background-color: rgba(240, 248, 255, 0.411);
+    padding: 10px ;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 75%;
+    margin-top: 50px;
+    color: rgb(15, 155, 2);
+    font-weight: 500;
+    font-style: italic;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+@media screen and (max-width:550px) {
+    .expoil{
+        margin-top: 30px;
+    }
+    .expoil__background{
+        height: 70vh !important;
+        background-position: center center;
+    }
+    .expoil__text h1{
+        font-size: 30px;
+    }
+    .expoil__text p{
+        width: 95% ;
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    .expoil__text .para{
+      margin-top: 30px;
+        background-color: rgba(240, 248, 255, 0.966);
+    }
+    .expoil__text .para1{
+        background-color: rgba(240, 248, 255, 0.966);
+      
+    }
+}
+
+@media screen and (max-width:380px) {
+    .expoil__text .para {
+        margin-top: 20px !important;
+    }
+
+    .expoil__background {
+        max-height: 100vh !important;
+    }
+}
+@media screen and (max-width:340px) {
+    .expoil__text .para {
+        margin-top: 20px !important;
+    }
+
+    .expoil__background {
+        max-height: 100vh !important;
+    }
+    .expoil__text h1{
+        font-size: 20px !important;
+        text-align: center !important;
+    }
+    .expoil__text p{
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width:400px) {
+    .expoil__background {
+        height: 100vh !important;
+    }
+        .expoil__text .para {
+            margin-top: 120px ;
+        }
+}
+/* @media screen and (max-width:420px) {
+    .expoil__background {
+        height: 70vh !important;
+    }
+         .expoil__text h1 {
+             font-size: 20px !important;
+             text-align: center !important;
+         }
+         .expoil__text p{
+            width: 70% !important;
+         }
+} */
+@media screen and (max-width:860px) {
+    .expoil__background {
+        height: 50vh;
+    }
+}
+@media screen and (max-width:920px) {
+    .expoil__background {
+        height: 50vh ;
+    }
+}
+@media screen and (max-width:1030px) {
+    .expoil__background {
+        height: 100vh;
+    }
+}

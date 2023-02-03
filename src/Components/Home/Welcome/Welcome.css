@@ -1,0 +1,140 @@
+.welcome{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.welcome__content{
+    width: 85%;
+    margin: auto;
+}
+.welcome__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.welcome__text{
+    margin-right: 30px;
+}
+.welcome__text h3{
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 2px dashed gray;
+}
+.welcome__text h3 span{
+    display: block;
+    font-size: 45px;
+    word-spacing: 10px;
+}
+.welcome__text h3 span strong{
+    color: rgb(54, 187, 54);
+}
+.welcome__text h3 span b{
+    color: rgb(6, 10, 68);
+    
+}
+.welcome__text p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.welcome__image .grid__image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.grid__image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 550px;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(70%);
+    -webkit-filter: brightness(70%);
+    
+}
+
+@media screen and (max-width:550px) {
+    .welcome__flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .welcome__text{
+        margin-left: 0;
+    }
+    .welcome__content {
+        width: 95%;
+        margin: auto;
+    }
+    .welcome__text h3{
+        font-size: 30px;
+    }
+    .welcome__text h3 span{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .welcome__text p{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .grid__image{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .grid__image{
+        width: 350px;
+    }
+}
+@media screen and (max-width:420px) {
+    .grid__image{
+        width: 350px !important;
+    }
+}
+@media screen and (max-width:860px) {
+    .welcome__flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid__image{
+        margin-top: 30px;
+       
+    }
+    
+}
+@media screen and (max-width:920px) {
+    .welcome__flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid__image{
+        margin-top: 30px;
+       
+    }
+    
+}
+@media screen and (max-width:340px) {
+    .grid__image{
+        max-width: 300px !important;
+    }
+}
+@media screen and (max-width:1030px) {
+    .welcome__flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid__image{
+        margin-top: 30px;
+       
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .grid__image {
+        width: 360px !important;
+    }
+}
