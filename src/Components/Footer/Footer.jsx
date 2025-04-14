@@ -65,7 +65,7 @@ const Footer = () => {
                   </div>
                   <div className="phone">
                     <MdCall fontSize={30} color="white" />
-                    <span>+34642583766</span>
+                    <span>+34642509763</span>
                   </div>
                   <div className="email">
                     <MdEmail fontSize={30} color="white" />
