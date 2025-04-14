@@ -50,7 +50,7 @@ const Banner = () => {
         >
           {data.map((items, index) => {
             return (
-              <SwiperSlide>
+              <SwiperSlide key={index}>
                 <div className="datas" key={index}>
                   <BannerImage item={items} />
                 </div>

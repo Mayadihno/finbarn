@@ -6,6 +6,14 @@ import image5 from "../../../Assets/Carocel-image/Shea-butter.jpg";
 import image6 from "../../../Assets/Carocel-image/connect.jpg";
 const data = [
   {
+    id: 0,
+    image:
+      "https://images.pexels.com/photos/30517082/pexels-photo-30517082/free-photo-of-container-ship-docked-at-hamburg-port.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    textBig: "Welcome to Finbarn Wepo Agro Allied Commodities",
+    textSmall:
+      "We are a company that is committed to providing the best quality products and services to our customers. We are always looking for ways to improve and grow, and we would love for you to join us on this journey.",
+  },
+  {
     id: 1,
     image: image1,
     textBig: "Providing agro Allied commodities",

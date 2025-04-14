@@ -29,6 +29,12 @@ const MenuBar = () => (
     >
       Contact Us
     </NavLink>
+    <NavLink
+      to="/import"
+      className={({ isActive }) => (isActive ? "active-links" : "")}
+    >
+      Import
+    </NavLink>
   </>
 );
 
