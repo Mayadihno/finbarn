@@ -12,6 +12,7 @@ import Cocoa from "./Components/ProductDescription/Cocoa";
 import Seasame from "./Components/ProductDescription/Seasame";
 import Sheabutter from "./Components/ProductDescription/Sheabutter";
 import Ginger from "./Components/ProductDescription/Ginger";
+import Import from "./Components/import/Import";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/seasame" element={<Seasame />} />
         <Route path="/sheaButter" element={<Sheabutter />} />
         <Route path="/ginger" element={<Ginger />} />
+        <Route path="/import" element={<Import />} />
       </Routes>
       <Footer />
     </div>
