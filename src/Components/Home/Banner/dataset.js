@@ -163,4 +163,15 @@ export const products = [
     image:
       "https://i0.wp.com/orljaa.com/wp-content/uploads/2020/08/ACHI-POWDER-600x600-1.jpg",
   },
+  {
+    name: "Africa Native Men Wears",
+    description: "Traditional African clothing for all occasions.",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOAxTrG3-0US8_OhvmLQTe9TM_5uhna5TO8w&s",
+  },
+  {
+    name: "Africa Native Women Wears",
+    description: "Traditional African clothing for all occasions.",
+    image: "https://m.media-amazon.com/images/I/71h-dspp0iL._AC_UY1000_.jpg",
+  },
 ];
