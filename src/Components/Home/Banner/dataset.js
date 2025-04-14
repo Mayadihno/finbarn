@@ -63,101 +63,104 @@ export const products = [
   {
     name: "Dried Fish",
     description: "High-quality, sun-dried Nigerian fish, ideal for export.",
-    image: "https://images.unsplash.com/photo-1576765607925-6ffb2a7eced4",
+    image:
+      "https://images.pexels.com/photos/30112814/pexels-photo-30112814/free-photo-of-vibrant-display-of-dried-seafood-in-digha-market.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
   },
   {
     name: "Garri",
     description: "Cassava flakes, a staple food in many Nigerian homes.",
-    image: "https://images.unsplash.com/photo-1627662061525-3c78f372dd12",
+    image:
+      "https://mile12market.com/wp-content/uploads/2014/12/mile12_market_online_white_garri-Copy.jpg",
   },
   {
     name: "Brown Beans",
     description: "Protein-rich Nigerian brown beans, freshly packed.",
-    image: "https://images.unsplash.com/photo-1592928303447-5a6a8c7dbac6",
+    image:
+      "https://dailytrust.com/wp-content/uploads/2024/06/honey-beans.jpg.webp",
   },
   {
     name: "Ankara Fabric",
     description: "Vibrant African prints perfect for fashion and design.",
-    image: "https://images.unsplash.com/photo-1612262105661-1bcb74c1a93c",
+    image:
+      "https://www.allthingsankara.com/wp-content/uploads/2014/09/balogun_market_ankara_fabric.jpg",
   },
   {
     name: "Palm Oil",
     description: "Rich and natural Nigerian red palm oil.",
-    image: "https://images.unsplash.com/photo-1605975089447-30ef0f52b72e",
+    image: "https://sc04.alicdn.com/kf/A06e2b895cba9436abae62a4c7bf4192fo.jpeg",
   },
   {
-    name: "Shea Butter",
-    description: "Pure organic shea butter for cosmetic and skincare.",
-    image: "https://images.unsplash.com/photo-1629371608937-eac0e1e9851d",
+    name: "Rice",
+    description: "High-quality Nigerian rice, perfect for export.",
+    image:
+      "https://24hoursmarket.com/wp-content/uploads/2020/03/IMG_20200315_121254-1-scaled.jpg",
   },
   {
     name: "Groundnut",
     description: "Crunchy, roasted Nigerian peanuts in bulk.",
-    image: "https://images.unsplash.com/photo-1611042553484-87f9ed6bb9d6",
+    image:
+      "https://i0.wp.com/ounjealadun.com/wp-content/uploads/2015/03/20200619_155233_wm-1.jpg?resize=1108%2C1477&ssl=1",
   },
   {
     name: "Yam Flour (Elubo)",
     description: "Powdered yam for preparing amala, a Yoruba delicacy.",
-    image: "https://images.unsplash.com/photo-1615719415937-800ec1a5d3d9",
+    image:
+      "https://airahsolutionsltd.com/wp-content/uploads/2022/03/elubo-1.jpg",
   },
   {
     name: "Locust Beans (Iru)",
     description: "Fermented beans for enhancing traditional soups.",
-    image: "https://images.unsplash.com/photo-1598515217812-4fdf73c51535",
+    image:
+      "https://flourishafricanmart.com/cdn/shop/products/Iru-Locus-bean-1_300x300.jpg?v=1581485815",
   },
   {
     name: "Snails",
     description: "Cleaned and packaged African giant snails.",
-    image: "https://images.unsplash.com/photo-1650971768611-1fdf690b5190",
+    image:
+      "https://cokodeal.com/images/sellers_deals/FB_IMG_1664366112973-1-1712437075.jpg",
   },
   {
     name: "Ogbono Seeds",
     description: "Wild mango seeds for making ogbono soup.",
-    image: "https://images.unsplash.com/photo-1629387123120-59c1c8bb3b21",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJdt_P9M5SCs8IHnMkN5qNDoQS0bGE3_OfMw&s",
   },
   {
     name: "Crayfish",
     description: "Sun-dried crayfish for flavor-rich Nigerian cooking.",
-    image: "https://images.unsplash.com/photo-1628851204074-4dc5e212a194",
+    image:
+      "https://i.etsystatic.com/46327978/c/2142/2142/0/355/il/499c4c/5224578222/il_300x300.5224578222_78ka.jpg",
   },
   {
     name: "Dried Pepper",
     description: "Hot and spicy sun-dried Nigerian pepper.",
-    image: "https://images.unsplash.com/photo-1606788075766-6f87dc6556b5",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmGqrZVqE135gENVsSiMUX4eFCq4b7R3coxQ&s",
   },
   {
     name: "Cassava",
     description: "Raw cassava tubers harvested fresh from the farm.",
-    image: "https://images.unsplash.com/photo-1626882044235-f64ff1b4c0b5",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2iq_CaqDK5G6UUWgnolodSVUrNB4X4HcPQA&s",
   },
-  {
-    name: "Cocoa",
-    description: "Top-quality cocoa beans from Nigerian farms.",
-    image: "https://images.unsplash.com/photo-1579457079153-543f7f3e1070",
-  },
-  {
-    name: "Kolanut",
-    description: "Traditional nut used in ceremonies and beverages.",
-    image: "https://images.unsplash.com/photo-1640717244230-9c002bf7dd1a",
-  },
+
   {
     name: "Honey",
     description: "Natural Nigerian honey harvested from the wild.",
-    image: "https://images.unsplash.com/photo-1607082349560-7f2d46d2f59b",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQroHInGooDXxeQAAmF9PUY8RIrQIffw5e2vg&s",
   },
   {
     name: "Okra",
     description: "Fresh okra pods used in soups and stews.",
-    image: "https://images.unsplash.com/photo-1646670363384-c89a7f7db237",
+    image:
+      "https://media.istockphoto.com/id/1053422448/photo/fresh-okra-at-vegetable-market.jpg?s=612x612&w=0&k=20&c=MTOcSbW6vmni4MqLYNMO-FHu8JMrOBZO5g_Q_izb6ws=",
   },
-  {
-    name: "Pepper Soup Spices",
-    description: "Assorted spices used in traditional pepper soup.",
-    image: "https://images.unsplash.com/photo-1647603659502-2070b9469ba0",
-  },
+
   {
     name: "Achi Powder",
     description: "Soup thickener used in Eastern Nigerian cuisine.",
-    image: "https://images.unsplash.com/photo-1629237953854-0bb7e36462f7",
+    image:
+      "https://i0.wp.com/orljaa.com/wp-content/uploads/2020/08/ACHI-POWDER-600x600-1.jpg",
   },
 ];
